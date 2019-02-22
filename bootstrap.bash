@@ -13,6 +13,7 @@ rm *.gz
 rm -rf .git
 rm README.md
 rm bootstrap.bash
+mv spawned-readme.md README.md
 
 git init
 git add .
