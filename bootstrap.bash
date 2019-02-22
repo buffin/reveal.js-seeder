@@ -11,6 +11,9 @@ tar -C $TARGET -xvzf $RELEASE.tar.gz --strip-components=1
 rm *.gz
 
 rm -rf .git
+rm README.md
+rm bootstrap.bash
+
 git init
 git add .
 git commit -m "New presentation based on reveal.js $RELEASE"
