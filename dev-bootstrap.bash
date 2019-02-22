@@ -12,4 +12,5 @@ rm *.gz
 
 rm -rf .git
 git init
-git commit -a -m 'New presentation based on reveal.js $RELEASE'
+git add .
+git commit -m "New presentation based on reveal.js $RELEASE"
