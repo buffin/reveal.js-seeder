@@ -1,0 +1,8 @@
+reveal:
+  build: .
+  command: ['npm', 'start']
+  ports:
+    - 80:8000
+  volumes:
+    - ./reveal:/home/app/reveal:rw
+    - nodemodules:/home/app/reveal/node_modules
